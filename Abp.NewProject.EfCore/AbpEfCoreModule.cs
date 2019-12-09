@@ -6,7 +6,7 @@ using Volo.Abp.Modularity;
 
 namespace Abp.NewProject.EfCore
 {
-    [DependsOn(typeof(AbpEntityFrameworkCoreModule),
+    [DependsOn(typeof(AbpDomainModule),typeof(AbpEntityFrameworkCoreModule),
         typeof(AbpEntityFrameworkCoreMySQLModule))]
     public class AbpEfCoreModule:AbpModule
     {
