@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.NewProject.Domain", "Abp.NewProject.Domain\Abp.NewProject.Domain.csproj", "{53CE096D-E1BE-41F1-968A-1C25A0B49E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.NewProject.Domain", "Abp.NewProject.Domain\Abp.NewProject.Domain.csproj", "{53CE096D-E1BE-41F1-968A-1C25A0B49E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.NewProject.Application", "Abp.NewProject.Application\Abp.NewProject.Application.csproj", "{F0A318F4-855C-4F32-B661-8CCF80070B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.NewProject.Application", "Abp.NewProject.Application\Abp.NewProject.Application.csproj", "{F0A318F4-855C-4F32-B661-8CCF80070B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.NewProject.EfCore", "Abp.NewProject.EfCore\Abp.NewProject.EfCore.csproj", "{629C3E59-E809-437A-8581-EB25AAFEAFCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.NewProject.EfCore", "Abp.NewProject.EfCore\Abp.NewProject.EfCore.csproj", "{629C3E59-E809-437A-8581-EB25AAFEAFCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.NewProject.Service", "Abp.NewProject.Service\Abp.NewProject.Service.csproj", "{260D8E60-7864-4FC2-BA7D-1E4B038E84FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.NewProject.Service", "Abp.NewProject.Service\Abp.NewProject.Service.csproj", "{260D8E60-7864-4FC2-BA7D-1E4B038E84FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.SqlSugar", "Abp.SqlSugar\Abp.SqlSugar.csproj", "{3B24AB50-1032-468E-A802-CD077DF3373F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{260D8E60-7864-4FC2-BA7D-1E4B038E84FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{260D8E60-7864-4FC2-BA7D-1E4B038E84FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{260D8E60-7864-4FC2-BA7D-1E4B038E84FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B24AB50-1032-468E-A802-CD077DF3373F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B24AB50-1032-468E-A802-CD077DF3373F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B24AB50-1032-468E-A802-CD077DF3373F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B24AB50-1032-468E-A802-CD077DF3373F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
